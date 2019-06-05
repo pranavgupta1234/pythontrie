@@ -3,7 +3,7 @@ import os, sys
 
 sys.path.insert(0, os.path.join(os.getcwd(), "../ptrie/"))
 
-from trie import trie
+from ptrie.trie import trie
 
 class TrieBasicTests(unittest.TestCase):
 
