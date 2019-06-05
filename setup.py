@@ -4,17 +4,16 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='ptrie',
+    name='pythontrie',
     version='0.1',
-    scripts=['ptrie'] ,
-    py_modules=["ptrie"],
     author="Pranav Gupta",
     author_email="pranavgupta4321@gmail.com",
     description="General Purpose Trie Data Structure in Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pranavgupta1234/ptrie",
-    packages=setuptools.find_packages(),
+    url="https://github.com/pranavgupta1234/pythontrie",
+    license="Apache Software License",
+    packages=["pythontrie"],
     classifiers=[
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
