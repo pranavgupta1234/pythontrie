@@ -1,10 +1,10 @@
-import sys
-from ptrie.trie import trie
+import os, sys
+
+sys.path.insert(0, os.path.join(os.getcwd(), "../ptrie/"))
+
+from trie import trie
 
 if __name__ == '__main__':
-
-    for p in sys.path:
-        print(p)
 
     sample_trie = trie()
 

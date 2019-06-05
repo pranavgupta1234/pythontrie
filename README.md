@@ -1,7 +1,7 @@
 ptrie : Python Implementation of Trie Data Structure
 ==========================
 
-[![image](https://github.com/pranavgupta1234/ptrie/blob/master/img/trie.jpg)
+![image](https://github.com/pranavgupta1234/ptrie/blob/master/img/trie.jpg)
 
 ptrie includes sweet pythonic implementation of our favourite data structure trie.
 

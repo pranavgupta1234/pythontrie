@@ -1,6 +1,9 @@
 import unittest
+import os, sys
 
-from ptrie.trie import trie
+sys.path.insert(0, os.path.join(os.getcwd(), "../ptrie/"))
+
+from trie import trie
 
 class TrieBasicTests(unittest.TestCase):
 
