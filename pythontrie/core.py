@@ -1,4 +1,16 @@
-from trienode import TrieNode
+from collections import defaultdict
+
+class trienode():
+    def __init__(self, isleaf=False):
+        self.isLeaf = isleaf
+        self.mapping = defaultdict(trienode)
+
+    def get_mapping(self):
+        return self.mapping
+
+    def is_leaf(self):
+        return self.isLeaf
+
 
 class trie:
     def __init__(self, head=None):
@@ -9,14 +21,14 @@ class trie:
         curr = self.root
 
         if self.root == None:
-            self.root = TrieNode()
+            self.root = trienode()
             curr = self.root
 
         for token in value:
             if token in curr.get_mapping():
                 curr = curr.get_mapping()[token]
             else:
-                curr.get_mapping()[token] = TrieNode()
+                curr.get_mapping()[token] = trienode()
                 curr = curr.get_mapping()[token]
 
         curr.isLeaf = True
