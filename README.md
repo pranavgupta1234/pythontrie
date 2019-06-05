@@ -1,21 +1,27 @@
-ptrie : Python Implementation of Trie Data Structure
+pythontrie : Python Implementation of Trie Data Structure
 ==========================
 
-[![image](https://travis-ci.org/pranavgupta1234/ptrie.svg?branch=master)](https://github.com/pranavgupta1234/ptrie/issues)
+[![image](https://travis-ci.org/pranavgupta1234/pythontrie.svg?branch=master)](https://github.com/pranavgupta1234/ptrie/issues)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ![image](https://github.com/pranavgupta1234/ptrie/blob/master/img/trie.jpg)
 
-ptrie includes sweet pythonic implementation of our favourite data structure trie.
+pythontrie includes sweet implementation of our favourite data structure trie in python.
 
-Use ptrie as:
+Usage:
+------
 
 ``` {.sourceCode .python}
->>> import ptrie
+>>> from pythontrie import trie
 >>> sample_trie = trie()
 >>> sample_strings = ['heyy', 'heyay', 'heyey', 'hyyy', 'yoyo', 'heeyy', 'hoeyy']
 >>> for sample_string in sample_strings:
 >>>     sample_trie.insert(sample_string)
+```
+
+Then printing suggestions is as simple as:
+
+```
 >>> print(sample_trie.suggestions(prefix='he')
 ['heyy', heyay', heyey', 'heeyy']
 
@@ -29,15 +35,15 @@ Current Features
 - Searching for suggestion using prefix
 - Search whether any string is present in trie or not
 
-ptrie right now supports 3.4–3.7, and runs great on PyPy.
+pythontrie right now supports all python versions
 
 Installation
 ------------
 
-To install ptrie, simply use all time fav pip and type :
+To install pythontrie, simply use all time favorite pip and type :
 
 ``` {.sourceCode .bash}
-$ pip install ptrie
+$ pip install pythontrie
 ✨🍰✨
 ```
 
@@ -49,9 +55,9 @@ Coming Soon.
 How to Contribute
 -----------------
 
-1.  Initial plan to to integrate all necessary functionality that trie can offer into this library so that it can act as 
+1.  Initial plan is to integrate all necessary functionality that trie can offer into this library so that it can act as 
     one place shot for everyone who is playing with trie.
-2.  Please propose and feel free to raise and issue and then submit a PR for some sensible feature. Try to elaborate the
-    implementational area where this feature would be applicable so that all of us can be enlightened :).
-3.  I am planning to integrate research work done into this library as well so that it can provide advanced functionalities
+2.  Please propose and feel free to raise an issue and submit a PR for some sensible feature. Try to elaborate the
+    the area where this feature would be applicable so that all of us can be enlightened :).
+3.  I am planning to integrate research work done on tries into this library as well so that it can provide advanced functionalities
     with tight algorithmic complexity bounds. Please feel free to share any paper.

@@ -2,7 +2,7 @@ import os, sys
 
 sys.path.insert(0, os.path.join(os.getcwd(), "../pythontrie/"))
 
-from pythontrie.trie import trie
+from pythontrie import trie
 
 if __name__ == '__main__':
 

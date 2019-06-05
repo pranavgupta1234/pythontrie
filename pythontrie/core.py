@@ -69,5 +69,6 @@ class trie:
 
         return sugg
 
+
     def size(self):
         return self.trie_size
