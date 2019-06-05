@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='pythontrie',
-    version='0.1',
+    version='0.2',
     author="Pranav Gupta",
     author_email="pranavgupta4321@gmail.com",
     description="General Purpose Trie Data Structure in Python",
