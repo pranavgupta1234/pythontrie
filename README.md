@@ -3,6 +3,8 @@ pythontrie : Python Implementation of Trie Data Structure
 
 [![image](https://travis-ci.org/pranavgupta1234/pythontrie.svg?branch=master)](https://github.com/pranavgupta1234/ptrie/issues)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![image](https://img.shields.io/pypi/v/pythontrie.svg?label=pythontrie)](https://pypi.org/project/pythontrie/)
+[![image](https://img.shields.io/codecov/c/github/pranavgupta1234/pythontrie.svg?token=8ed8569c-fb05-4a1c-a0b7-30c3915bb266)](https://pypi.org/project/pythontrie/)
 
 ![image](https://github.com/pranavgupta1234/ptrie/blob/master/img/trie.jpg)
 
