@@ -1,6 +1,7 @@
 pythontrie : Python Implementation of Trie Data Structure
 ==========================
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5cfc11fad54443a3a222fb32f2616988)](https://app.codacy.com/app/pranavgupta1234/pythontrie?utm_source=github.com&utm_medium=referral&utm_content=pranavgupta1234/pythontrie&utm_campaign=Badge_Grade_Dashboard)
 [![image](https://travis-ci.org/pranavgupta1234/pythontrie.svg?branch=master)](https://github.com/pranavgupta1234/ptrie/issues)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![image](https://img.shields.io/pypi/v/pythontrie.svg?label=pythontrie)](https://pypi.org/project/pythontrie/)
